@@ -30,21 +30,18 @@ max_density_multiplier = 10
 reset_com_momentum = true
 refresh_vel = 1
 print_conf_interval = 1e5
-conf_file = relaxed.dat
+conf_file = relaxed_mc.dat
 topology = init.top
-lastconf_file = relax_cuda.dat
+lastconf_file = relaxed_cuda.dat
 external_forces = 1
-external_forces_file = trap.txt
+external_forces_file = pair_trap.txt
 
 
-trajectory_file = relaxation_trajectory_continue.dat
+trajectory_file = relax_trajectory_md.dat
 energy_file = energy.dat
 restart_step_counter = 0
 print_energy_every = 1e5
 time_scale = linear
-
-#timings_filename = timings_1_0.001
-#print_timings = yes
 
 
 

@@ -37,10 +37,10 @@ max_density_multiplier=10
 ##############################
 ####    INPUT / OUTPUT    ####
 ##############################
-topology = trapped_half.top 
+topology = init.top 
 conf_file = last_conf.dat 
 lastconf_file = last_conf.dat
-trajectory_file = trajectory_trap.dat
+trajectory_file = trajectory_md.dat
 max_io = 5
 refresh_vel = 1
 #log_file = log_trap.dat
@@ -50,7 +50,3 @@ energy_file = energy.dat
 print_conf_interval = 500000
 print_energy_every = 200000
 time_scale = linear
-
-external_forces = 1
-external_forces_file = trap.txt
-
